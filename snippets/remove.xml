@@ -107,6 +107,9 @@
     <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
     <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
     <remove-project name="platform/vendor/codeaurora/telephony" />
+    <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+    <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
+    <remove-project name="platform/vendor/qcom-opensource/system/bt" />
     <remove-project name="platform/vendor/qcom-opensource/core-utils" />
     <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
     <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />

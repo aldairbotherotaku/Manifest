@@ -69,6 +69,14 @@
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
     <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
 
+    <!-- Vendor QSSI-->
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="xpe" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="xpe" />
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="xpe" >
+      <linkfile dest="vendor/qcom/defs/board-defs/system/bt-system-qssi-board.mk" src="bt-system-qssi-board.mk"/>
+      <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
+    </project>
+
     <!--Vendor-->
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="uvite" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="uvite-legacy" />
