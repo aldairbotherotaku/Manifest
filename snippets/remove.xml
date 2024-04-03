@@ -39,6 +39,7 @@
     <!-- External -->
     <remove-project name="platform/external/cronet" />
     <remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/javasqlite" />
     <remove-project name="platform/external/wpa_supplicant_8" />
 
     <!-- Frameworks -->
