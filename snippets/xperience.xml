@@ -94,6 +94,7 @@
     <project path="vendor/qcom/opensource/dataservices" name="AOSPA/android_vendor_qcom-opensource_dataservices" remote="github" revision="uvite" />
     <project path="vendor/gapps" name="android_vendor_gapps" remote="gitlab" clone-depth="1" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
+    <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common" remote="xpe" clone-depth="1" />
     <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs-pa" revision="disabled" clone-depth="1" />
 </manifest>
