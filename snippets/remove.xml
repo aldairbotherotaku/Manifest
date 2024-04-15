@@ -40,6 +40,7 @@
     <remove-project name="platform/external/cronet" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/javasqlite" />
+    <remove-project name="platform/external/libcxx" />
     <remove-project name="platform/external/sqlite" />
     <remove-project name="platform/external/fastrpc" />
     <remove-project name="platform/external/wpa_supplicant_8" />
