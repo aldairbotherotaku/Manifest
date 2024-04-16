@@ -57,7 +57,7 @@
     <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-18.0" />
 
     <!--Libcore-->
-    <project path="libcore" name="AOSPA/android_libcore" remote="github" revision="uvite" />
+    <project path="libcore" name="android_libcore" remote="xpe" />
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" />
