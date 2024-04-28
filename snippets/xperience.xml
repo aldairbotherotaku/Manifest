@@ -83,7 +83,7 @@
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
     <project path="system/server_configurable_flags" name="android_system_server_configurable_flags" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/update_engine" />
-    <project path="system/vold" name="android_system_update_engine" groups="pdk" remote="xpe" />
+    <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="xpe" />
     <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
 
     <!-- Vendor QSSI-->
