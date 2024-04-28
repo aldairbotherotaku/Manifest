@@ -57,20 +57,11 @@
 
   <remote  name="blobs-pa"
            fetch="https://github.com/ThankYouMario"
-           revision="topaz" />
+           revision="uvite" />
 
   <remote  name="blobs-gitlab-pa"
            fetch="https://gitlab.com/ThankYouMario"
-           revision="topaz" />
-
-  <remote name="pixel-gitlab-self-hosted"
-          fetch="https://gitlab.pixelexperience.org/android"
-          revision="thirteen" />
-
-  <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
-          revision="thirteen"
-          review="gerrit.pixelexperience.org" />
+           revision="uvite" />
 
   <include name="snippets/remove.xml"/>
   <include name="snippets/aosp.xml"/>
