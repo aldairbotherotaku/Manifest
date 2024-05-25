@@ -93,7 +93,7 @@
     <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" groups="qcom,lahaina" remote="xpe" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
     </project>
-    <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" >
+    <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,kailua-vendor" remote="xpe" revision="xpe-18.0-caf" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
     </project>
 
