@@ -70,13 +70,16 @@
     <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" />
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="xpe" />
     <project path="packages/apps/Updater" name="android_packages_apps_XPeUpdater" remote="xpe" />
+    <project path="packages/apps/XPerienceDoze" name="android_packages_apps_XPerienceDoze" remote="xpe" />
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
     <project path="packages/modules/common" name="android_packages_modules_common" remote="xpe"/>
+    <project path="packages/modules/Connectivity" name="android_packages_modules_connectivity" remote="gitlab" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" revision="xpe-17.0-caf" />
     <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" />
     <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" remote="lineage" />
 
     <!-- Prebuilts -->
+    <project path="prebuilts/calyx/datura" name="android_prebuilts_calyx_datura" remote="xpe" />
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" revision="xpe-18.0" />
 
     <!-- Toolchain-->
@@ -84,6 +87,7 @@
 
     <!-- system -->
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
+    <project path="system/netd" name="android_device_netd" groups="pfk" remote="xpe" />
     <project path="system/security" name="android_system_security" groups="pdk" remote="xpe" />
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
     <project path="system/server_configurable_flags" name="android_system_server_configurable_flags" groups="pdk" remote="xpe" />
